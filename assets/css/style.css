@@ -195,11 +195,78 @@
 }
 
 .container__text {
+    margin-top: 20px;
     font-size: 1.6rem;
     line-height: 2.4rem;
     text-align: justify;
 
 }
+
+.text__infor {
+
+}
+.text__infor p {
+    padding: 10px 0;
+}
+
+.text__infor i {
+    padding-right: 20px;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+/* Section Hobbies */
+
+.infor {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} 
+
+.infor__box {
+    width: 50%;
+    margin: 0 0 0 40px;
+    border-radius: 10px;
+    border-top: none;
+    box-shadow: 0 4px 25px rgb(14 49 22 /.18);
+}
+
+.infor__title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--second-color);
+    margin: 0;
+    background-color: var(--second-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.infor__list {
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.infor__item {
+    padding: 10px 40px;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+    min-height: 40px;
+}
+
+.infor__item p {
+    display: inline-block;
+}
+
+.infor__item:last-child {
+    border-bottom:none;
+}
+
+
 
 /* Section - Skills */
 
@@ -314,6 +381,7 @@
 .skills__softskill {
     width: 100%;
     margin-top: 40px;
+    color: var(--text-color);
 }
 
 
@@ -676,10 +744,35 @@
         margin: auto;
     }
 
+
+    /* Responsive Hobbies section */
+    .infor {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infor__box {
+        width: 100%;
+        margin: 0;
+        padding: 40px 20px;
+
+    }
+
+    .infor__title {
+        font-size: 1.6rem;
+    }
+
+    .infor__item {
+        font-size: 1.4rem;
+    } 
+
+
     /* Responsive Skills section */
     .skills__subtitle {
         font-size: 1.6rem;
         text-align: center;
+        color: var(--text-color);
     }
 
     .skills__text {
