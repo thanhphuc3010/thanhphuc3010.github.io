@@ -112,6 +112,10 @@
     font-weight: 800;
 }
 
+.decription__btn a {
+    text-decoration: none;
+    color: white;
+}
 
 .home__social {
     padding-top: 30px;
